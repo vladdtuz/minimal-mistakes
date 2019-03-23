@@ -1,6 +1,6 @@
 ---
 title: Design against static failure
-tags: Design Engineering Beginner
+tags: Design Engineering Beginner Fatigue
 layout: single
 mathjax: true
 ---
@@ -32,7 +32,7 @@ $$\sigma$$ = principle stress in the respective direction.
 Therefore according to this theory, if principle stress (in any direction) is greater than material stress level, structure will fail.
 
 ### "Maximum shear" theory (Tresca)
-$$ S_< MAX(|\sigma_1-\sigma_2|,|\sigma_2 - \sigma_3|,|\sigma_3- \sigma_1|) $$
+$$ S< MAX(|\sigma_1-\sigma_2|,|\sigma_2 - \sigma_3|,|\sigma_3- \sigma_1|) $$
 
 where: $$S_y$$= material yield stress 
 $$\sigma$$ = principle stress in the respective direction. 
@@ -62,3 +62,4 @@ Therfore, desiging for failure under static conditions is done using the followi
 2. Using Github script, detemine principle stresses
 3. Apply failure criteria. Rankine for brittle failure; von Mises or Tesca for ductile
 
+Cyclic loading failure will be discussed in a different post, at a later date
